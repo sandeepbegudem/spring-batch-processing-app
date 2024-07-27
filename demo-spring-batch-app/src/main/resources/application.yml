@@ -1,0 +1,1 @@
+server:  port: 5678spring:  datasource:    driverClassName: com.mysql.cj.jdbc.Driver    url: jdbc:mysql://localhost:3306/customer_details    username: root    password: bs@nDip1  jpa:    hibernate.ddl-auto: update    generate-ddl: true    show-sql: true  batch:    jdbc:      initialize-schema: ALWAYS    job:      enabled: false
